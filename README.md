@@ -1,10 +1,3 @@
-# merge-md 	![npm](https://img.shields.io/npm/dt/merge-md.svg)
-
-[![NPM](https://nodei.co/npm/merge-md.png?compact=true)](https://www.npmjs.com/package/merge-md)
-
-<a href="https://yarnpkg.com/en/package/merge-md">
-  <img alt="Yarn" src="https://i.imgur.com/HxYZTl8.png" width="300">
-</a>
 
 ## Installation
 
