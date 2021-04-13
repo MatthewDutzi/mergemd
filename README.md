@@ -4,13 +4,13 @@
 ### Install from npm/yarn
 
 ```bash
-$ npm install -g merge-md
+$ npm install -g @matthewdutzi/mergemd
 ```
 
 or
 
 ```bash
-$ yarn global add merge-md
+$ yarn global add @matthewdutzi/mergemd
 ```
 
 to install globally.
