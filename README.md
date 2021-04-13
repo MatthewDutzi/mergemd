@@ -6,11 +6,6 @@
   <img alt="Yarn" src="https://i.imgur.com/HxYZTl8.png" width="300">
 </a>
 
-
-Once upon a time there is a computer science student. She has been taking notes in markdown for a summer course. Now it's almost final time, and she wants to merge all of her markdown notes into a single file.
-
-Because she is a computer science student, instead of doing it in 5 mins by copying and pasting, she chooses to spend 30 minutes writing a package to do the work (and ~~possibly~~ another ~~10~~ 30 minutes publishing on npm). Ah, a computer science student.
-
 ## Installation
 
 ### Install from npm/yarn

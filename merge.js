@@ -21,19 +21,9 @@ if (process.argv.includes('-mdx')){
   fileExt = '.mdx';
 }
 
-let commentsEnabled = true;
-if (process.argv.includes('-no-file-info')){
-  commentsEnabled = false;
-}
-
 try {
   fs.readdirSync(path).forEach((fileName) => {
-    if (fileName.indexOf('.DS_Store') === -1) {
-
-      if(commentsEnabled){
-        mergedContent += '# ' + fileName + '\n';
-      }
-      
+    if (fileName.indexOf('.DS_Store') === -1) {    
       mergedContent += fs.readFileSync(path + '/' + fileName, 'utf-8') + '\n';
     }
   });
